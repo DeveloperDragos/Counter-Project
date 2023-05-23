@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pangolin", sans-serif;
+  color: #212529;
+}
+
+body {
+  background-color: #ffc078;
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.value {
+  font-size: 6rem;
+}
+
+.btn {
+  font-size: 2rem;
+  margin: 0.7rem;
+  padding: 0.4rem 0.6rem;
+
+  background-color: #ffe8cc;
+
+  border-radius: 7px;
+  border: solid 3px;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(120%);
+}
